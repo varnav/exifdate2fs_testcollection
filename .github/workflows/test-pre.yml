@@ -40,7 +40,7 @@ jobs:
       - name: Prepare
         run: |
           python -m pip install --upgrade pip
-          python -m pip install exifdate2fs
+          python -m pip install exifdate2fs --pre
           
       - name: Run tests
         run: |
